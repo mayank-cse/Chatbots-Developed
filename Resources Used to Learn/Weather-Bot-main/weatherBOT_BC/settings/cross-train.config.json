@@ -1,0 +1,16 @@
+{
+  "weatherBOT_BC.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "weather": [
+        "get_weather.en-us"
+      ],
+      "cancel": [
+        "CancelDialog.en-us"
+      ],
+      "help": [
+        "HelpDialog.en-us"
+      ]
+    }
+  }
+}

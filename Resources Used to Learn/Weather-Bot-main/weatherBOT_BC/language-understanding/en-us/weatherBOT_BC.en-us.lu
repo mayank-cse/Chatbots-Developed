@@ -1,0 +1,19 @@
+
+# cancel
+- cancel
+- please cancel
+- stop that
+
+# help
+- help
+- I need help
+- please help me
+- can you help
+
+# weather
+- get weather
+- weather
+- how is the weather
+
+> Define a postal code entity. Any time LUIS sees a five digit number, it will flag it as 'postal code' entity.
+$ postalcode:/[0-9]{5}/

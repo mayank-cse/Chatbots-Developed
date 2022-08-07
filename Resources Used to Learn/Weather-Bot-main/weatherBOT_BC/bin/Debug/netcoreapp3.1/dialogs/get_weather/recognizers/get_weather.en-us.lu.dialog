@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_get_weather",
+  "applicationId": "=settings.luis.get_weather_en_us_lu.appId",
+  "version": "=settings.luis.get_weather_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

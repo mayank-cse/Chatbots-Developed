@@ -1,0 +1,45 @@
+[import](common.lg)
+
+# SendActivity_XUlADH()
+[Activity
+    Text = ${SendActivity_XUlADH_text()}
+]
+
+# SendActivity_XUlADH_text()
+- Let's Check the weather around you.
+# TextInput_Prompt_8WgMKN()
+[Activity
+    Text = ${TextInput_Prompt_8WgMKN_text()}
+]
+
+# TextInput_Prompt_8WgMKN_text()
+- What's your postal code?
+# TextInput_InvalidPrompt_8WgMKN()
+[Activity
+    Text = ${TextInput_InvalidPrompt_8WgMKN_text()}
+]
+
+# TextInput_InvalidPrompt_8WgMKN_text()
+- ```Sorry '${this.value}' is invalid. I am looking for a 6 digit number as postal code.
+Please specify a 5 digit code in the format 123456.```
+# SendActivity_iKS4eg()
+[Activity
+    Text = ${SendActivity_iKS4eg_text()}
+    Attachments = ${SendActivity_iKS4eg_attachment_wLY5II()}
+]
+
+# SendActivity_iKS4eg_text()
+- The weather is ${dialog.fahrenheit}F or ${dialog.celsius}C and ${dialog.weather}.
+# SendActivity_V8YaWh()
+[Activity
+    Text = ${SendActivity_V8YaWh_text()}
+]
+
+# SendActivity_V8YaWh_text()
+- Something went wrong: ${dialog.api_response.content.message}.
+# SendActivity_iKS4eg_attachment_wLY5II()
+[ThumbnailCard
+   title = Weather in ${dialog.city} in ${dialog.country}
+   text =  It is "${dialog.weather}" in ${user.postalcode} and the temperature is ${dialog.fahrenheit}&deg;F or ${dialog.celsius}&deg;C. Have a nice day.
+   image = http://openweathermap.org/img/wn/${dialog.icon}@2x.png
+]
