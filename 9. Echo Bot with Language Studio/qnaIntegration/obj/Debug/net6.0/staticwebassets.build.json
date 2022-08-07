@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "otIHlh2MInIKRk9qehTApXOYvTDpmfHVfFc59uStvuM=",
+  "Source": "qnaIntegration",
+  "BasePath": "_content/qnaIntegration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "qnaIntegration\\wwwroot",
+      "Source": "qnaIntegration",
+      "ContentRoot": "C:\\Users\\mayank.gupta\\Desktop\\Task2-ImplementProactiveMessages\\qnaIntegration\\qnaIntegration\\wwwroot\\",
+      "BasePath": "_content/qnaIntegration",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mayank.gupta\\Desktop\\Task2-ImplementProactiveMessages\\qnaIntegration\\qnaIntegration\\wwwroot\\default.htm",
+      "SourceId": "qnaIntegration",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayank.gupta\\Desktop\\Task2-ImplementProactiveMessages\\qnaIntegration\\qnaIntegration\\wwwroot\\",
+      "BasePath": "_content/qnaIntegration",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
