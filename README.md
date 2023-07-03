@@ -39,21 +39,21 @@ In this repository, you will find a variety of chatbot projects that I have crea
 Each project is located in its respective folder, containing the necessary source code, configuration files, and any additional resources required to run and test the chatbot. The projects are organized based on their specific use cases and functionalities.
 
 ## Projects
-- **Ecommerce Merchandiser Bot**: This chatbot assists with ecommerce merchandising tasks, providing product information, handling customer queries, and offering personalized recommendations.
+- **Ecommerce Merchandiser Bot**: This chatbot assists with ecommerce merchandising tasks, providing product information, handling customer queries, and offering personalized recommendations. [Project Repo](https://github.com/mayank-cse/EcommerceMerchandizerBot)
 
-- **Admin Bot**: The admin bot simplifies administrative tasks by automating processes, such as user management, data retrieval, and report generation.
+- **Admin Bot**: The admin bot simplifies administrative tasks by automating processes, such as user management, data retrieval, and report generation. [Project Repo](https://github.com/mayank-cse/Admin-Bot-with-Authentication)
 
-**Console Bot with Language Studio QnA**: This chatbot, built using the Microsoft Bot Framework and Language Understanding Intelligent Service (LUIS), enables users to interact with a console-based application by asking questions and receiving instant responses.
+- **Console Bot with Language Studio QnA**: This chatbot, built using the Microsoft Bot Framework and Language Understanding Intelligent Service (LUIS), enables users to interact with a console-based application by asking questions and receiving instant responses.
 
-**Flight Booking Bot using Intent Recognizer**: The flight booking bot leverages an intent recognizer to understand user requests and assists with flight reservations, fare information, and itinerary management.
+- **Flight Booking Bot using Intent Recognizer**: The flight booking bot leverages an intent recognizer to understand user requests and assists with flight reservations, fare information, and itinerary management. [Project Repo](https://github.com/mayank-cse/Weather-Bot)
 
-**To-Do Bot**: This bot helps users manage their tasks and to-do lists, allowing them to add, update, and complete tasks through conversational interactions.
+- **To-Do Bot**: This bot helps users manage their tasks and to-do lists, allowing them to add, update, and complete tasks through conversational interactions. [Project Repo](https://github.com/mayank-cse/ToDoBot-with-Email-Authentication)
 
-**Hunger Free Society**: This chatbot project focuses on raising awareness about hunger-related issues, providing information on food banks, donations, and volunteering opportunities.
+- **Hunger Free Society**: This chatbot project focuses on raising awareness about hunger-related issues, providing information on food banks, donations, and volunteering opportunities. [Project Repo](https://github.com/mayank-cse/Hunger-Free-Society)
 
-**Proactive Messaging Bot (Route ApiNotify)**: The proactive messaging bot utilizes the Route ApiNotify service to send proactive messages to users, delivering timely notifications and updates.
+- **Proactive Messaging Bot (Route ApiNotify)**: The proactive messaging bot utilizes the Route ApiNotify service to send proactive messages to users, delivering timely notifications and updates.
 
-**Echo Bot with Language Studio**: The echo bot uses the Microsoft Bot Framework and Language Understanding Models to understand and respond to user input, providing a simple conversational experience.
+- **Echo Bot with Language Studio**: The echo bot uses the Microsoft Bot Framework and Language Understanding Models to understand and respond to user input, providing a simple conversational experience.
 
 Each project folder contains a README file with detailed information about the project, including instructions on how to run and test the chatbot.
 
